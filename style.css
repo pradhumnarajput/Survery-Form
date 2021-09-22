@@ -109,7 +109,7 @@ input {
     margin-top: 1vw;
     border-radius: 6px;
     border: none;
-    border-bottom: #F95959 4px solid;
+    border-bottom: #F95959 0.3vw solid;
 }
 
 .input-radio-text {
