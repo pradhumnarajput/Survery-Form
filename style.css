@@ -38,7 +38,7 @@ body {
     margin: 10% auto;
     border-radius: 2.1vw;
     background: #FFB5B5;
-    box-shadow: 3vw 3vw 0px 0px #F95959;
+    box-shadow: 2.2vw 2.5vw 0px 0px #F95959;
     
 }
 
@@ -140,9 +140,10 @@ input[type="checkbox"] {
 }
 
 textarea::placeholder {
+    font-family: 'Montserrat', sans-serif;
     padding: 1vw;
     font-size: 1.2vw;
-    text-align: center;
+    /* text-align: center; */
     /* line-height: auto; */
 }
 
@@ -151,7 +152,7 @@ textarea {
     padding: 1vw;
     padding-right: 0px;
     font-size: 1.3vw;
-    min-height: 20vw;
+    min-height: 10vw;
     /* max-height: 20vw; */
 }
 
