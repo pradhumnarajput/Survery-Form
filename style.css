@@ -1,0 +1,175 @@
+.container{
+    font-family: 'Montserrat', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #132743;
+}
+
+
+/* Header */
+#title {
+    color: #407088;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    padding-top: 3%;
+}
+
+#description {
+    text-align: center;
+    color: #407088;
+    font-size: 2vw;
+    padding-top: 2%;
+}
+
+
+/* Form */
+
+
+.rect1 {
+    position: relative;
+    width: 60%;
+    padding-bottom: 2%;
+    left: 0; 
+    right: 0; 
+    margin: 10% auto;
+    border-radius: 2.1vw;
+    background: #FFB5B5;
+    box-shadow: 3vw 3vw 0px 0px #F95959;
+    
+}
+
+
+
+
+.form-title {
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 15%;
+    font-size: 4vw;
+    font-weight: 800;
+    color: #132743;
+}
+
+.form-group {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+/* Form Contents*/
+
+.text-label {
+    display: block;
+    position: static;
+    color: #45171D;
+    font-size: 1.75vw;
+    font-weight: 600;
+}
+
+
+
+text ::placeholder {
+    font-size: 1.2vw;
+    left: 10vw;
+    line-height: 10vw;
+}
+
+option {
+    font-size: 1.2vw;
+    left: 10vw;
+    text-indent: 1vw;
+    line-height: 10vw;
+}
+
+input {
+    padding-left: 1vw;
+    font-size: 1.3vw;
+}
+
+
+
+#dropdown {
+    width: 49vw;
+    font-size: 1.2vw;
+    left: 10vw;
+    text-indent: 1vw;
+    line-height: 10vw;
+}
+
+
+.text-box {
+    display: block;
+    width: 48vw;
+    height: 3.2vw;
+    margin-top: 1vw;
+    border-radius: 6px;
+    border: none;
+    border-bottom: #F95959 4px solid;
+}
+
+.input-radio-text {
+    display: flex;
+    color: #45171D;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-top: 1.1vw;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    margin-top: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.input-checkbox-text {
+    display: flex;
+    color: #45171D;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-top: 1.1vw;
+}
+
+input[type="checkbox"] {
+    margin-top: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+textarea::placeholder {
+    padding: 1vw;
+    font-size: 1.2vw;
+    text-align: center;
+    /* line-height: auto; */
+}
+
+textarea {
+    position: relative;
+    padding: 1vw;
+    padding-right: 0px;
+    font-size: 1.3vw;
+    min-height: 20vw;
+    /* max-height: 20vw; */
+}
+
+#submit {
+    display: block;
+    width: 49vw;
+    height: 3.2vw;
+    margin-top: 1vw;
+    background-color: #F95959;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#submit:hover {
+    background-color: #e85454;
+}
+
