@@ -141,7 +141,7 @@ input[type="checkbox"] {
 
 textarea::placeholder {
     font-family: 'Montserrat', sans-serif;
-    padding: 1vw;
+    /* padding: 1vw; */
     font-size: 1.2vw;
     /* text-align: center; */
     /* line-height: auto; */
