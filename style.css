@@ -107,7 +107,7 @@ input {
     width: 48vw;
     height: 3.2vw;
     margin-top: 1vw;
-    border-radius: 6px;
+    border-radius: 0.5em;
     border: none;
     border-bottom: #F95959 0.3vw solid;
 }
@@ -164,10 +164,11 @@ textarea {
     background-color: #F95959;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.25em;
     font-weight: 600;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.75vw;
 }
 
 #submit:hover {
